@@ -56,3 +56,11 @@ let total_revenue = sales.reduce((total,num) => total + num ,0);
 //Used the .reduce() method to calculate total revenue.
 
 console.log (total_revenue); //Logged the total revenue to the console.
+
+//Task 7: find() Method
+let customers = ['Alice', 'Bob', 'Charlie', 'David']; //Declared an array customers 
+
+const best_customer = customers.find(cust => cust==='Charlie'); 
+//Used the .find() method to locate the customer "Charlie"
+
+console.log(best_customer); //Logged the result to the console.
