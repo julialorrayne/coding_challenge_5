@@ -82,4 +82,11 @@ const applyDiscount = function(price,discount){
 
 applyDiscount(2000,0.1); //called function
 
+//Task 10: Arrow Function
+const calculatePoints = purchaseAmount => purchaseAmount / 10;
+//function calculatePoints that Return 1 point per $10 spent
+let points = calculatePoints(300); //call function for $300
+
+console.log(`${points}`); //logged result to console
+
 
