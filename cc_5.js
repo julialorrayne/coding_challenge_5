@@ -64,3 +64,12 @@ const best_customer = customers.find(cust => cust==='Charlie');
 //Used the .find() method to locate the customer "Charlie"
 
 console.log(best_customer); //Logged the result to the console.
+
+//Task 8: Function Declaration
+const calculateTax = function(amount,taxRate){
+    let calculated_tax = amount*taxRate
+    return console.log (`This is the calculated tax: ${calculated_tax}`)
+};  //function calculateTax that returns the calculated tax and log it using a template literal.
+
+calculateTax(1000,0.1); //called function
+
