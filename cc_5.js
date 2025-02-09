@@ -39,3 +39,12 @@ let prices = [100,200,300]; //Declared an array prices
 let discounted_prices = prices.map(num=> num - (num*0.1)); //Used the .map() method to apply a 10% discount to each price
 
 console.log(discounted_prices); //Logged the new discounted prices to the console
+
+//Task 5: Filter Method
+
+let inventory = [5,10,0,40,50,0]; //Declared an array inventory with six product quantities.
+
+let updated_inventory = inventory.filter(quantity => quantity>0);
+//Used the .filter() method to remove products with zero stock.
+
+console.log(updated_inventory); //Logged the filtered array to the console.
