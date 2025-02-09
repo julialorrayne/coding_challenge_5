@@ -48,3 +48,11 @@ let updated_inventory = inventory.filter(quantity => quantity>0);
 //Used the .filter() method to remove products with zero stock.
 
 console.log(updated_inventory); //Logged the filtered array to the console.
+
+//Task 6: Reduce Method
+let sales = [500,300,200,400]; //Declared an array sales 
+
+let total_revenue = sales.reduce((total,num) => total + num ,0);
+//Used the .reduce() method to calculate total revenue.
+
+console.log (total_revenue); //Logged the total revenue to the console.
