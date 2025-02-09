@@ -33,3 +33,9 @@ cartItems.shift(); //Removed the first item using .shift()
 
 console.log(cartItems);//Logged the final array to the console
 
+//Task 4: Map Method
+let prices = [100,200,300]; //Declared an array prices
+
+let discounted_prices = prices.map(num=> num - (num*0.1)); //Used the .map() method to apply a 10% discount to each price
+
+console.log(discounted_prices); //Logged the new discounted prices to the console
