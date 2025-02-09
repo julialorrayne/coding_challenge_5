@@ -20,3 +20,16 @@ let order = {
 
 order.displayOrder(); //called method
 
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+let cartItems = ['banana','strawberries','orange']; //Declared an array cartItems with three product name
+
+cartItems.push('yogurt'); //Added a new product to the cart using .push()
+
+cartItems.pop(); //Removed the last item using .pop()
+
+cartItems.unshift('blueberries'); //Added an item at the beginning using .unshift()
+
+cartItems.shift(); //Removed the first item using .shift()
+
+console.log(cartItems);//Logged the final array to the console
+
